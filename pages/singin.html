@@ -6,45 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/pruebacss.css">
+    <script src="https://kit.fontawesome.com/6a3216568c.js" crossorigin="anonymous"></script>
     <meta name="description" content="You have to log in to contact us">
     <meta name="keywords" content="log in, log in to contact us">
     <title>ArchitectureDs</title>
 </head>
 <body>
-    <header>
-        <h1 class="display-4 tituloIndex">ArchitectureDs</h1>
-    </header>
-    <nav>
-        <ul>
-            <li> <a href="../index.html">Home</a></li>
-            <li> <a href="../pages/singup.html">Sing up</a></li>
-            <li> <a href="../pages/contact.html">Contact</a></li>
-            <li> <a href="../pages/aboutus.html">About us</a></li>
-        </ul>
-    </nav> 
+  <header>
+    <div class="wrapper">
+        <div class="titulo">ArchitectureDs</div>
+      <nav>
+            <a href="../index.html">Home</a>
+            <a href="./singup.html">Sing up</a>
+            <a href="./contact.html">Contact</a>
+            <a href="./aboutus.html">About us</a>
+      </nav> 
+    </div>
+</header> 
     <main>
-        <h1 class="h1SingIn">To contact us so that we can provide you with advice and financing, you must log in.</h1>
-        <p></p>
-        <form>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            </div>
-            <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
-            <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Remember my password</label>
-            </div>
-            <button type="submit" class="btn btn-primary">Accept</button>
-          </form>
-          <footer>
-              <p class="footerSingIn">If you do not have an account yet, you must create one.</p>
-          </footer>
+      <h1 class="titulo_singin">Debes iniciar sesion para poder contactarnos y recibir nuestras resuestas</h1>
+      <form action="get">
+        <p>Correo electronico <i class="fas fa-envelope"></i>
+        <div class="contenedor_formulario"></div>
+        <input type="text" class="campo"> <br>
+      </div>
+      <p>contraseña <i class="fas fa-key"></i></p>
+        <input type="password" class="campo"> <br> <br>
+        <p class="button"><input  type="button" class="btn btn-green" value="Enviar"></p>
+      </form>
+
     </main>
-    
+    <footer>
+      <div class="contenedor_footer">
+        <div class="contenido_footer">
+          <h4>Email</h4>
+          <p>architectureds@gmail.com</p>
+        </div>
+        <div class="contenido_footer">
+          <h4>Telefono</h4>
+          <p>351-5437064</p>
+        </div>
+        <div class="contenido_footer">
+          <h4>Direccion</h4>
+          <p>Av. Brasil 1228</p>
+        </div>
+      </div>
+      <h2 class="titulo_footer">&copy; ArchitectureDs</h2>
+    </footer>
     <script src="js/bootstrap.bundle.min.js" ></script>
 </body>
 </html>

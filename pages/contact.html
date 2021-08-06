@@ -12,41 +12,49 @@
     <title>ArchitectureDs</title>
 </head>
 <body>
-    <header>
-        <h1 class="display-4 tituloIndex">ArchitectureDs</h1>
-    </header>
-    <nav>
-        <ul>
-            <li> <a href="../index.html">Home</a></li>
-            <li> <a href="../pages/singin.html">Sing in</a></li>
-            <li> <a href="../pages/singup.html">Sing up</a></li>
-            <li> <a href="../pages/aboutus.html">About us</a></li>
-        </ul>
-    </nav>   
+  <header>
+    <div class="wrapper">
+        <div class="titulo">ArchitectureDs</div>
+          <nav>
+            <a href="../index.html">Home</a>
+            <a href="./singin.html">Sing in</a>
+            <a href="./singup.html">Sing up</a>
+            <a href="./aboutus.html">About us</a>
+          </nav>
+      </div>
+  </header>
     <main>
-        <div class="container">
-            <div class="row">
-              <div class="col">
-                <h1>If you have a project you'd like to discuss, please get in touch...</h1><br>
-                <p>Phone: 07989 989693 - Residential: 07494 023359 - Commercial</p><br>
-                <p>Email: ArchitectureDs@gmail.com</p><br>
-                <p>Address: Av Juan B. Justo 85</p>
-              </div>
-              <div class="col-6">
-                <img id="imagenContacto" src="../images/contacto.jpeg" alt="">
-              </div>
-            </div>
-          </div>
+      <h1 class="titulo_contacto">Si tienes algun proyecto en mente o alguna consulta, no dudes en escrubirnos</h1>
+        <div class="contenedor_contacto"></div>
+        <form action="get">
+          <p>Nombre:</p>
+          <input type="text" class="campo"> <br>
+          <p>Email:</p>
+          <input type="text" class="campo"> <br>
+          <p>Asunto:</p>
+          <input type="text" class="campo"> <br>
+          <p>Mensaje:</p>
+          <textarea class="campo"></textarea> <br>
+          <p class="button"><input  type="button" class="btn btn-green" value="Enviar"></p>
+        </form>
     </main> 
-    <footer>
-        <div class="container">
-            <div class="row">
-              <div class="col">
-                <p class="footerContact">ArchitectureDs</p>
-              </div>
-            </div>
+      <footer>
+        <div class="contenedor_footer">
+          <div class="contenido_footer">
+            <h4>Email</h4>
+            <p>architectureds@gmail.com</p>
           </div>
-    </footer>
+          <div class="contenido_footer">
+            <h4>Telefono</h4>
+            <p>351-5437064</p>
+          </div>
+          <div class="contenido_footer">
+            <h4>Direccion</h4>
+            <p>Av. Brasil 1228</p>
+          </div>
+        </div>
+        <h2 class="titulo_footer">&copy; ArchitectureDs</h2>
+      </footer>
     
 
 
